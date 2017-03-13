@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		407F546B1E764DFA00FF726D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 407F546A1E764DFA00FF726D /* AppDelegate.m */; };
+		407F546E1E764DFA00FF726D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 407F546D1E764DFA00FF726D /* main.m */; };
+		407F54711E764DFA00FF726D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 407F54701E764DFA00FF726D /* ViewController.m */; };
+		407F54731E764DFA00FF726D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 407F54721E764DFA00FF726D /* Assets.xcassets */; };
+		407F54761E764DFA00FF726D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 407F54741E764DFA00FF726D /* Main.storyboard */; };
+		407F54811E764DFA00FF726D /* HBSQLiteContextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 407F54801E764DFA00FF726D /* HBSQLiteContextTests.m */; };
+		407F548C1E764DFA00FF726D /* HBSQLiteContextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 407F548B1E764DFA00FF726D /* HBSQLiteContextUITests.m */; };
+		407F549E1E764E6E00FF726D /* HBSQLiteContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 407F549B1E764E6E00FF726D /* HBSQLiteContext.m */; };
+		407F549F1E764E6E00FF726D /* HBSQLiteObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 407F549D1E764E6E00FF726D /* HBSQLiteObject.m */; };
+		407F54A51E764EA200FF726D /* HBBaseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 407F54A21E764EA200FF726D /* HBBaseItem.m */; };
+		407F54A61E764EA200FF726D /* HBFileItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 407F54A41E764EA200FF726D /* HBFileItem.m */; };
+		407F54AA1E764EE700FF726D /* NSFileManager+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 407F54A91E764EE700FF726D /* NSFileManager+Category.m */; };
+		407F54AD1E764F2300FF726D /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 407F54AC1E764F2300FF726D /* NSString+Category.m */; };
+		407F54B01E764F3000FF726D /* NSString+JSONCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 407F54AF1E764F3000FF726D /* NSString+JSONCategories.m */; };
+		407F54B31E764F4200FF726D /* NSDictionary+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 407F54B21E764F4200FF726D /* NSDictionary+Category.m */; };
+		407F54B61E764F5800FF726D /* MMMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 407F54B51E764F5800FF726D /* MMMD5.m */; };
+		93562F4AC0C9629B70802257 /* Pods_HBSQLiteContext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160EF78569E6800EADB13694 /* Pods_HBSQLiteContext.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		407F547D1E764DFA00FF726D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 407F545E1E764DF900FF726D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 407F54651E764DFA00FF726D;
+			remoteInfo = HBSQLiteContext;
+		};
+		407F54881E764DFA00FF726D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 407F545E1E764DF900FF726D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 407F54651E764DFA00FF726D;
+			remoteInfo = HBSQLiteContext;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		160EF78569E6800EADB13694 /* Pods_HBSQLiteContext.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBSQLiteContext.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		292D8B5FB8D12F4FE7BBF68F /* Pods-HBSQLiteContext.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBSQLiteContext.release.xcconfig"; path = "Pods/Target Support Files/Pods-HBSQLiteContext/Pods-HBSQLiteContext.release.xcconfig"; sourceTree = "<group>"; };
+		407F54661E764DFA00FF726D /* HBSQLiteContext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBSQLiteContext.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		407F54691E764DFA00FF726D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		407F546A1E764DFA00FF726D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		407F546D1E764DFA00FF726D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		407F546F1E764DFA00FF726D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		407F54701E764DFA00FF726D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		407F54721E764DFA00FF726D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		407F54751E764DFA00FF726D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		407F54771E764DFA00FF726D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		407F547C1E764DFA00FF726D /* HBSQLiteContextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBSQLiteContextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		407F54801E764DFA00FF726D /* HBSQLiteContextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBSQLiteContextTests.m; sourceTree = "<group>"; };
+		407F54821E764DFA00FF726D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		407F54871E764DFA00FF726D /* HBSQLiteContextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBSQLiteContextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		407F548B1E764DFA00FF726D /* HBSQLiteContextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBSQLiteContextUITests.m; sourceTree = "<group>"; };
+		407F548D1E764DFA00FF726D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		407F549A1E764E6E00FF726D /* HBSQLiteContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBSQLiteContext.h; sourceTree = "<group>"; };
+		407F549B1E764E6E00FF726D /* HBSQLiteContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBSQLiteContext.m; sourceTree = "<group>"; };
+		407F549C1E764E6E00FF726D /* HBSQLiteObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBSQLiteObject.h; sourceTree = "<group>"; };
+		407F549D1E764E6E00FF726D /* HBSQLiteObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBSQLiteObject.m; sourceTree = "<group>"; };
+		407F54A11E764EA200FF726D /* HBBaseItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBaseItem.h; sourceTree = "<group>"; };
+		407F54A21E764EA200FF726D /* HBBaseItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBaseItem.m; sourceTree = "<group>"; };
+		407F54A31E764EA200FF726D /* HBFileItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBFileItem.h; sourceTree = "<group>"; };
+		407F54A41E764EA200FF726D /* HBFileItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBFileItem.m; sourceTree = "<group>"; };
+		407F54A81E764EE700FF726D /* NSFileManager+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Category.h"; sourceTree = "<group>"; };
+		407F54A91E764EE700FF726D /* NSFileManager+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Category.m"; sourceTree = "<group>"; };
+		407F54AB1E764F2300FF726D /* NSString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
+		407F54AC1E764F2300FF726D /* NSString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
+		407F54AE1E764F3000FF726D /* NSString+JSONCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JSONCategories.h"; sourceTree = "<group>"; };
+		407F54AF1E764F3000FF726D /* NSString+JSONCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSONCategories.m"; sourceTree = "<group>"; };
+		407F54B11E764F4200FF726D /* NSDictionary+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Category.h"; sourceTree = "<group>"; };
+		407F54B21E764F4200FF726D /* NSDictionary+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Category.m"; sourceTree = "<group>"; };
+		407F54B41E764F5800FF726D /* MMMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMD5.h; sourceTree = "<group>"; };
+		407F54B51E764F5800FF726D /* MMMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMD5.m; sourceTree = "<group>"; };
+		407F54B71E764F8700FF726D /* ProjectSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectSettings.h; sourceTree = "<group>"; };
+		407F54B81E76511000FF726D /* HBSQLiteContext.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HBSQLiteContext.entitlements; sourceTree = "<group>"; };
+		AE9A2244CCB9C04628931BB0 /* Pods-HBSQLiteContext.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBSQLiteContext.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HBSQLiteContext/Pods-HBSQLiteContext.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		407F54631E764DFA00FF726D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93562F4AC0C9629B70802257 /* Pods_HBSQLiteContext.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		407F54791E764DFA00FF726D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		407F54841E764DFA00FF726D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		407F545D1E764DF900FF726D = {
+			isa = PBXGroup;
+			children = (
+				407F54681E764DFA00FF726D /* HBSQLiteContext */,
+				407F547F1E764DFA00FF726D /* HBSQLiteContextTests */,
+				407F548A1E764DFA00FF726D /* HBSQLiteContextUITests */,
+				407F54671E764DFA00FF726D /* Products */,
+				90AE2F0EBABFBC7EDB685699 /* Pods */,
+				FCBE0469DF6088541D2449C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		407F54671E764DFA00FF726D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				407F54661E764DFA00FF726D /* HBSQLiteContext.app */,
+				407F547C1E764DFA00FF726D /* HBSQLiteContextTests.xctest */,
+				407F54871E764DFA00FF726D /* HBSQLiteContextUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		407F54681E764DFA00FF726D /* HBSQLiteContext */ = {
+			isa = PBXGroup;
+			children = (
+				407F54B81E76511000FF726D /* HBSQLiteContext.entitlements */,
+				407F54A71E764ED400FF726D /* Tools */,
+				407F54A01E764EA200FF726D /* Models */,
+				407F54991E764E6E00FF726D /* Database */,
+				407F54691E764DFA00FF726D /* AppDelegate.h */,
+				407F546A1E764DFA00FF726D /* AppDelegate.m */,
+				407F546F1E764DFA00FF726D /* ViewController.h */,
+				407F54701E764DFA00FF726D /* ViewController.m */,
+				407F54721E764DFA00FF726D /* Assets.xcassets */,
+				407F54741E764DFA00FF726D /* Main.storyboard */,
+				407F54771E764DFA00FF726D /* Info.plist */,
+				407F546C1E764DFA00FF726D /* Supporting Files */,
+				407F54B71E764F8700FF726D /* ProjectSettings.h */,
+			);
+			path = HBSQLiteContext;
+			sourceTree = "<group>";
+		};
+		407F546C1E764DFA00FF726D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				407F546D1E764DFA00FF726D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		407F547F1E764DFA00FF726D /* HBSQLiteContextTests */ = {
+			isa = PBXGroup;
+			children = (
+				407F54801E764DFA00FF726D /* HBSQLiteContextTests.m */,
+				407F54821E764DFA00FF726D /* Info.plist */,
+			);
+			path = HBSQLiteContextTests;
+			sourceTree = "<group>";
+		};
+		407F548A1E764DFA00FF726D /* HBSQLiteContextUITests */ = {
+			isa = PBXGroup;
+			children = (
+				407F548B1E764DFA00FF726D /* HBSQLiteContextUITests.m */,
+				407F548D1E764DFA00FF726D /* Info.plist */,
+			);
+			path = HBSQLiteContextUITests;
+			sourceTree = "<group>";
+		};
+		407F54991E764E6E00FF726D /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				407F549A1E764E6E00FF726D /* HBSQLiteContext.h */,
+				407F549B1E764E6E00FF726D /* HBSQLiteContext.m */,
+				407F549C1E764E6E00FF726D /* HBSQLiteObject.h */,
+				407F549D1E764E6E00FF726D /* HBSQLiteObject.m */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		407F54A01E764EA200FF726D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				407F54A11E764EA200FF726D /* HBBaseItem.h */,
+				407F54A21E764EA200FF726D /* HBBaseItem.m */,
+				407F54A31E764EA200FF726D /* HBFileItem.h */,
+				407F54A41E764EA200FF726D /* HBFileItem.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		407F54A71E764ED400FF726D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				407F54B41E764F5800FF726D /* MMMD5.h */,
+				407F54B51E764F5800FF726D /* MMMD5.m */,
+				407F54B11E764F4200FF726D /* NSDictionary+Category.h */,
+				407F54B21E764F4200FF726D /* NSDictionary+Category.m */,
+				407F54AE1E764F3000FF726D /* NSString+JSONCategories.h */,
+				407F54AF1E764F3000FF726D /* NSString+JSONCategories.m */,
+				407F54AB1E764F2300FF726D /* NSString+Category.h */,
+				407F54AC1E764F2300FF726D /* NSString+Category.m */,
+				407F54A81E764EE700FF726D /* NSFileManager+Category.h */,
+				407F54A91E764EE700FF726D /* NSFileManager+Category.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		90AE2F0EBABFBC7EDB685699 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE9A2244CCB9C04628931BB0 /* Pods-HBSQLiteContext.debug.xcconfig */,
+				292D8B5FB8D12F4FE7BBF68F /* Pods-HBSQLiteContext.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FCBE0469DF6088541D2449C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				160EF78569E6800EADB13694 /* Pods_HBSQLiteContext.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		407F54651E764DFA00FF726D /* HBSQLiteContext */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 407F54901E764DFA00FF726D /* Build configuration list for PBXNativeTarget "HBSQLiteContext" */;
+			buildPhases = (
+				AAC9D44BCA5A5C5F09CEFD0F /* [CP] Check Pods Manifest.lock */,
+				407F54621E764DFA00FF726D /* Sources */,
+				407F54631E764DFA00FF726D /* Frameworks */,
+				407F54641E764DFA00FF726D /* Resources */,
+				F8D6DC127A719312F55E5931 /* [CP] Embed Pods Frameworks */,
+				7B01467B55A0C3B730831D7C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HBSQLiteContext;
+			productName = HBSQLiteContext;
+			productReference = 407F54661E764DFA00FF726D /* HBSQLiteContext.app */;
+			productType = "com.apple.product-type.application";
+		};
+		407F547B1E764DFA00FF726D /* HBSQLiteContextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 407F54931E764DFA00FF726D /* Build configuration list for PBXNativeTarget "HBSQLiteContextTests" */;
+			buildPhases = (
+				407F54781E764DFA00FF726D /* Sources */,
+				407F54791E764DFA00FF726D /* Frameworks */,
+				407F547A1E764DFA00FF726D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				407F547E1E764DFA00FF726D /* PBXTargetDependency */,
+			);
+			name = HBSQLiteContextTests;
+			productName = HBSQLiteContextTests;
+			productReference = 407F547C1E764DFA00FF726D /* HBSQLiteContextTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		407F54861E764DFA00FF726D /* HBSQLiteContextUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 407F54961E764DFA00FF726D /* Build configuration list for PBXNativeTarget "HBSQLiteContextUITests" */;
+			buildPhases = (
+				407F54831E764DFA00FF726D /* Sources */,
+				407F54841E764DFA00FF726D /* Frameworks */,
+				407F54851E764DFA00FF726D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				407F54891E764DFA00FF726D /* PBXTargetDependency */,
+			);
+			name = HBSQLiteContextUITests;
+			productName = HBSQLiteContextUITests;
+			productReference = 407F54871E764DFA00FF726D /* HBSQLiteContextUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		407F545E1E764DF900FF726D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = wave;
+				TargetAttributes = {
+					407F54651E764DFA00FF726D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 334F27LL3L;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					407F547B1E764DFA00FF726D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 334F27LL3L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 407F54651E764DFA00FF726D;
+					};
+					407F54861E764DFA00FF726D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 334F27LL3L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 407F54651E764DFA00FF726D;
+					};
+				};
+			};
+			buildConfigurationList = 407F54611E764DF900FF726D /* Build configuration list for PBXProject "HBSQLiteContext" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 407F545D1E764DF900FF726D;
+			productRefGroup = 407F54671E764DFA00FF726D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				407F54651E764DFA00FF726D /* HBSQLiteContext */,
+				407F547B1E764DFA00FF726D /* HBSQLiteContextTests */,
+				407F54861E764DFA00FF726D /* HBSQLiteContextUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		407F54641E764DFA00FF726D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				407F54731E764DFA00FF726D /* Assets.xcassets in Resources */,
+				407F54761E764DFA00FF726D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		407F547A1E764DFA00FF726D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		407F54851E764DFA00FF726D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B01467B55A0C3B730831D7C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HBSQLiteContext/Pods-HBSQLiteContext-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAC9D44BCA5A5C5F09CEFD0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8D6DC127A719312F55E5931 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HBSQLiteContext/Pods-HBSQLiteContext-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		407F54621E764DFA00FF726D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				407F54AA1E764EE700FF726D /* NSFileManager+Category.m in Sources */,
+				407F549F1E764E6E00FF726D /* HBSQLiteObject.m in Sources */,
+				407F54711E764DFA00FF726D /* ViewController.m in Sources */,
+				407F549E1E764E6E00FF726D /* HBSQLiteContext.m in Sources */,
+				407F54AD1E764F2300FF726D /* NSString+Category.m in Sources */,
+				407F54B31E764F4200FF726D /* NSDictionary+Category.m in Sources */,
+				407F54B61E764F5800FF726D /* MMMD5.m in Sources */,
+				407F54A51E764EA200FF726D /* HBBaseItem.m in Sources */,
+				407F546E1E764DFA00FF726D /* main.m in Sources */,
+				407F54B01E764F3000FF726D /* NSString+JSONCategories.m in Sources */,
+				407F546B1E764DFA00FF726D /* AppDelegate.m in Sources */,
+				407F54A61E764EA200FF726D /* HBFileItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		407F54781E764DFA00FF726D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				407F54811E764DFA00FF726D /* HBSQLiteContextTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		407F54831E764DFA00FF726D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				407F548C1E764DFA00FF726D /* HBSQLiteContextUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		407F547E1E764DFA00FF726D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 407F54651E764DFA00FF726D /* HBSQLiteContext */;
+			targetProxy = 407F547D1E764DFA00FF726D /* PBXContainerItemProxy */;
+		};
+		407F54891E764DFA00FF726D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 407F54651E764DFA00FF726D /* HBSQLiteContext */;
+			targetProxy = 407F54881E764DFA00FF726D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		407F54741E764DFA00FF726D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				407F54751E764DFA00FF726D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		407F548E1E764DFA00FF726D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		407F548F1E764DFA00FF726D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		407F54911E764DFA00FF726D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE9A2244CCB9C04628931BB0 /* Pods-HBSQLiteContext.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HBSQLiteContext/HBSQLiteContext.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 334F27LL3L;
+				GCC_PREFIX_HEADER = HBSQLiteContext/ProjectSettings.h;
+				INFOPLIST_FILE = HBSQLiteContext/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HBSQLiteContext;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		407F54921E764DFA00FF726D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 292D8B5FB8D12F4FE7BBF68F /* Pods-HBSQLiteContext.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HBSQLiteContext/HBSQLiteContext.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 334F27LL3L;
+				GCC_PREFIX_HEADER = HBSQLiteContext/ProjectSettings.h;
+				INFOPLIST_FILE = HBSQLiteContext/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HBSQLiteContext;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		407F54941E764DFA00FF726D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 334F27LL3L;
+				INFOPLIST_FILE = HBSQLiteContextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HBSQLiteContextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HBSQLiteContext.app/Contents/MacOS/HBSQLiteContext";
+			};
+			name = Debug;
+		};
+		407F54951E764DFA00FF726D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 334F27LL3L;
+				INFOPLIST_FILE = HBSQLiteContextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HBSQLiteContextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HBSQLiteContext.app/Contents/MacOS/HBSQLiteContext";
+			};
+			name = Release;
+		};
+		407F54971E764DFA00FF726D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 334F27LL3L;
+				INFOPLIST_FILE = HBSQLiteContextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HBSQLiteContextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HBSQLiteContext;
+			};
+			name = Debug;
+		};
+		407F54981E764DFA00FF726D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 334F27LL3L;
+				INFOPLIST_FILE = HBSQLiteContextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HBSQLiteContextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HBSQLiteContext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		407F54611E764DF900FF726D /* Build configuration list for PBXProject "HBSQLiteContext" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				407F548E1E764DFA00FF726D /* Debug */,
+				407F548F1E764DFA00FF726D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		407F54901E764DFA00FF726D /* Build configuration list for PBXNativeTarget "HBSQLiteContext" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				407F54911E764DFA00FF726D /* Debug */,
+				407F54921E764DFA00FF726D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		407F54931E764DFA00FF726D /* Build configuration list for PBXNativeTarget "HBSQLiteContextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				407F54941E764DFA00FF726D /* Debug */,
+				407F54951E764DFA00FF726D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		407F54961E764DFA00FF726D /* Build configuration list for PBXNativeTarget "HBSQLiteContextUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				407F54971E764DFA00FF726D /* Debug */,
+				407F54981E764DFA00FF726D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 407F545E1E764DF900FF726D /* Project object */;
+}
