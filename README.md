@@ -7,11 +7,14 @@ fileItem.file_md5 = @"123";
 /// 新增
 [fileItem save];
 
+
 /// 删除
 [fileItem delete];
 
+
 /// 更新
 [fileItem update];
+
 
 /// 查找
 MMFileItem fileItem = [[MMFileItem alloc]init];
