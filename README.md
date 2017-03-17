@@ -1,5 +1,5 @@
-# HBSQLiteContext 
-## 基于Mac OS操作系统写的一套本地数据库,可以直接通过模型操作数据库. iOS也可以使用
+## HBSQLiteContext 
+### 基于SQLite写的一套本地数据库,可以直接通过模型来做数据库操作.
 
 eg:  
 ```
