@@ -11,12 +11,6 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-
-    
-}
-
 - (IBAction)saveAction:(id)sender {
     
     HBFileItem *item = [[HBFileItem alloc]init];
@@ -26,9 +20,9 @@
     item.file_localPath = @"1";
     
     if ([item save]) {
-        NSLog(@"save success");
+        DLog(@"save success");
     }else{
-        NSLog(@"save fail");
+        DLog(@"save fail");
     }
 }
 
@@ -41,12 +35,12 @@
     
     if (item) {
         if ([item delete]) {
-            NSLog(@"delete success");
+            DLog(@"delete success");
         }else{
-            NSLog(@"delete fail");
+            DLog(@"delete fail");
         }
     }else{
-        NSLog(@"not exist");
+        DLog(@"not exist");
     }
 }
 
