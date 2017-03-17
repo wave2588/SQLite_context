@@ -407,8 +407,7 @@
 -(NSString *)findTableObject:(NSString *)tableName
 {
         NSDictionary *dict = @{
-                               @"File"   : @"MMFileItem",
-                               @"Record" : @"MMRecordItem"
+                               @"File"   : @"HBFileItem"
                              };
         
         NSString *modelName = dict[tableName];

@@ -39,6 +39,7 @@
 /// 删除所有表中数据,谨慎使用
 -(BOOL)deleteAllData;
 
+
 -(NSArray *)findAllInTimeQuery;
 
 
