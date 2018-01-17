@@ -1,5 +1,4 @@
 ## HBSQLiteContext 
-### 基于SQLite写的一套本地数据库,可以直接通过模型来做数据库操作.
 
 eg:  
 ```
